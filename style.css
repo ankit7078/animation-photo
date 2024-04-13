@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.slider {
+  width: 800px;
+  height: 400px;
+  background: url("D:/project/projects-front/project2/images/download (2).jpeg");
+  margin: 100px auto;
+  animation: slide 10s infinite;
+  background-size: cover;
+  border-radius: 45px;
+  border: 2px solid black;
+}
+
+@keyframes slide {
+  25% {
+    background: url("D:/project/projects-front/project2/images/download (2).jpeg");
+    background-size: cover;
+  }
+  50% {
+    background: url("D:/project/projects-front/project2/images/download (3).jpeg");
+    background-size: cover;
+  }
+  75% {
+    background: url("D:/project/projects-front/project2/images/download (4).jpeg");
+    background-size: cover;
+  }
+  100% {
+    background: url("D:/project/projects-front/project2/images/images.jpeg");
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
